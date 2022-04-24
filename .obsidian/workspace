@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "95ce5d940ba98481",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a1ce60f3c0167ba",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "finish.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "259c18d538105d50",
+    "type": "split",
+    "children": [
+      {
+        "id": "96a93ab3899e872c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c4a6233276f781d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "92130f95c3baf2d9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "19f1dd8eb9994753",
+    "type": "split",
+    "children": [
+      {
+        "id": "7465abbb23d6ea56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b551bb0acffd9d9b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "finish.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "6a1ce60f3c0167ba",
+  "lastOpenFiles": [
+    "finish.md",
+    "Trade $2 for clothes.md",
+    "Attack the robber.md",
+    "Trade $2 for food.md",
+    "Leave It Be!.md",
+    "start.md",
+    "Defend yourself.md",
+    "Pick It Up!.md",
+    "Try to run away.md",
+    "Try to reason with the robber.md"
+  ]
+}
