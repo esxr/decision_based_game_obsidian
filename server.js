@@ -53,8 +53,17 @@ async function getStateFromFile(filePath) {
     var prompt = fileData.split('___')[0]
 
     var options = fileData.split('___')[1]
-    options = options.trim('\r')
-    options = options.split('\n')
+
+    // temp fix
+    if (!options) return
+    if (options.length > 1) {
+        try {
+            options = options.trim('\r')
+        } catch (e) { }
+
+        options = options.split('\n')
+    }
+
     options = options.map(element => element.trim('\r'))
     options = options.map(element => element.replace(/[\[\]']+/g, ''))
     // options = options.map(i => i + '.md');

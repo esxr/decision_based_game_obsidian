@@ -37,7 +37,7 @@ async function getState() {
 }
 
 async function changeState(opt) {
-    let option = opt
+    let option = opt.toLowerCase()
 
     // handle finish
     if (option == 'finish') {

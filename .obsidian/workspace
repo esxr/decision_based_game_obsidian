@@ -4,12 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "6a1ce60f3c0167ba",
+        "id": "e5bc6600c155e3c2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "finish.md",
+            "file": "start.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "4f9e9fddae8b07fc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Leave It Be!.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "3e3a8c30bcc95e14",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Trade $2 for gold.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "c9e43e3c6f70dc18",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Swap gold for frankinscense.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "finish.md",
+                "file": "Swap gold for frankinscense.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +123,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "6a1ce60f3c0167ba",
+  "active": "c9e43e3c6f70dc18",
   "lastOpenFiles": [
-    "finish.md",
-    "Trade $2 for clothes.md",
-    "Attack the robber.md",
-    "Trade $2 for food.md",
+    "Swap gold for frankinscense.md",
+    "Trade $2 for gold.md",
+    "Sell the gold.md",
+    "Keep the gold.md",
     "Leave It Be!.md",
+    "Invest in Crypto Currency.md",
     "start.md",
-    "Defend yourself.md",
-    "Pick It Up!.md",
-    "Try to run away.md",
-    "Try to reason with the robber.md"
+    "Swap to another coin.md",
+    "Leave it alone.md",
+    "Just stand there!.md"
   ]
 }
