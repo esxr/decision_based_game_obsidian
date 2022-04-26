@@ -51,6 +51,11 @@ async function changeState(option) {
 
 function startGame() {
     getState()
+
+    // reset game on reload
+    window.onbeforeunload = async function () {
+        await changeState('start.md')
+    }
 }
 
 
