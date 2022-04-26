@@ -16,7 +16,7 @@ var state = {
 }
 
 function game() {
-    state = getStateFromFile(path.join(__dirname, 'start.md'))
+    state = getStateFromFile(path.join(__dirname, 'start'))
 }
 
 function changeState(option) {
@@ -43,7 +43,7 @@ app.post('/state',
 )
 
 async function getStateFromFile(filePath) {
-    var fileData = await fs.readFile(filePath, 'utf8', (err, data) => {
+    var fileData = await fs.readFile(filePath + '.md', 'utf8', (err, data) => {
         if (err) {
             console.error(err)
             return
@@ -57,7 +57,7 @@ async function getStateFromFile(filePath) {
     options = options.split('\n')
     options = options.map(element => element.trim('\r'))
     options = options.map(element => element.replace(/[\[\]']+/g, ''))
-    options = options.map(i => i + '.md');
+    // options = options.map(i => i + '.md');
 
     return { prompt, options }
 }

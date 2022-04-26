@@ -36,7 +36,21 @@ async function getState() {
         })
 }
 
-async function changeState(option) {
+async function changeState(opt) {
+    let option = opt
+
+    // handle finish
+    if (option == 'finish') {
+        // insert code to finish
+        option = 'start'
+    }
+
+    // handle retry
+    if (option == 'retry') {
+        // insert code to finish
+        option = 'start'
+    }
+
     await fetch('/state', {
         method: 'POST',
         headers: {
@@ -54,7 +68,7 @@ function startGame() {
 
     // reset game on reload
     window.onbeforeunload = async function () {
-        await changeState('start.md')
+        await changeState('start')
     }
 }
 
